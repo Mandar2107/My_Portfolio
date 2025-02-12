@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #0d1117;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Navbar */
+  nav {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    color: #00d4ff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?technology,code') no-repeat center center/cover;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Carousel Projects */
+  .carousel-container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .project-card {
+    background: #161b22;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* Footer */
+  footer {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  footer p, footer a {
+    color: #00d4ff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
